@@ -12,8 +12,7 @@ body {
     background: #000000d0;
     padding: 2em;
     border-radius: 40px;
-    width: 100%;
-    max-width: 450px;
+    width: 50%;
     margin-left: 20em;
     margin-top: 2em;
     color: white;
@@ -40,6 +39,25 @@ body {
     margin-right: -50%;
     height: 240px;
 }
+
+.cards{
+    float: left;
+    background: rgba(49, 49, 49, 0.463);
+    height: 200px;
+    width: 190px;
+    margin: 20px;
+    border-radius: 40px;
+}
+
+.weatherCard{
+    margin: 1em;
+}
+
+/* @media screen and (max-width: 500px) {
+    .card{
+        width: 100%;
+    }
+} */
 
 .search {
     display: flex;
@@ -89,15 +107,4 @@ h1.temp{
     margin-left: 10px;
 }
 
-.cards{
-    float: left;
-    background: rgba(49, 49, 49, 0.463);
-    height: 200px;
-    width: 190px;
-    margin: 20px;
-    border-radius: 40px;
-}
 
-.weatherCard{
-    margin: 1em;
-}
